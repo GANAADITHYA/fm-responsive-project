@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body { font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: hsl(0, 0%, 9%); margin: 0; padding: 20px; }
+    .profile-card{
+      position:absolute;
+      top:10%;
+      left:40%;
+      color:white;
+      background-color:hsl(0, 0%, 15%);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content: center;
+      width:400px;
+      height:800px;
+      border-radius:10px;
+    }
+    .container{
+      
+      display:grid;
+      grid-template-columns: auto;
+      gap:20px;
+      margin-top:50px;    
+     justify-items:center;
+    }
+    .box{
+      background-color: rgb(88, 92, 95);
+      font-weight:bold;
+      padding:10px;
+      width:250px;
+      text-align:center;
+      border-radius:5px;
+    }
+    #place{
+      color:rgb(154, 255, 1);
+      font-weight: bold;
+    }
+    .attribution{
+      position:absolute;
+      bottom:10px;
+      width:100%; 
+      
+    }
+    .image{
+      background-color: bisque;
+    }
+    .background{
+      background-color: hsl(0, 0%, 9%);
+      height:800px;
+      width: 97%;
+      position:absolute;
+      top:2%;
+      left:2%;  
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <img src="../social-links-profile-main/assets/images/favicon-32x32.png" alt="background pattern" style="position:absolute; width:100%; height:100%; z-index:-1;   ">
+    <div class="background">
+<div class="profile-card">
+  <img src="../social-links-profile-main/assets/images/avatar-jessica.jpeg" alt="Jessica Randall" style="border-radius:50%; margin-top:20px;">
+  <h2>Jessica Randall</h2>
+  <p id="place"> London, United Kingdom</p>
+  <p>"Front-end developer and avid reader."</p>
+<div class="container">
+  <div class="box">GitHub</div>
+  <div class="box">Frontend Mentor</div>
+  <div class="box">LinkedIn</div>
+  <div class="box">Twitter</div>
+  <div class="box">Instagram</div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div></div></div></div>
+</body>
+</html>
